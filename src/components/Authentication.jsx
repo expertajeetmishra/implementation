@@ -28,8 +28,8 @@ export function SignUp()
 {
    
 return(
-<div>
-    <input type="text" placeholder="enter email id"/>
+<div style={{border:"2px solid black"}}>
+    <input style={{backgroundColor:"green"}} type="text" placeholder="enter email id"/>
     <br />
     <input type="text" placeholder="Enter the password" />
     <br/>
